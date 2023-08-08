@@ -29,6 +29,8 @@ import {
 } from 'ngx-perfect-scrollbar';
 import { MomentDateAdapter, MAT_MOMENT_DATE_FORMATS } from '@angular/material-moment-adapter';
 import { MAT_SELECT_SCROLL_STRATEGY } from '@angular/material/select';
+import { RequirementDetailsComponent } from '../common/requirement-details/requirement-details.component';
+import { ModalBigComponent } from '../common/modal-big/modal-big.component';
 
 
 
@@ -52,6 +54,8 @@ export function scrollFactory(overlay: Overlay): () => CloseScrollStrategy {
 
 @NgModule({
     declarations: [
+        RequirementDetailsComponent,
+        ModalBigComponent
     ],
     providers: [
         {
