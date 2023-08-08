@@ -1,0 +1,1427 @@
+.xmlified .FDSYSLINE {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+.xmlified .CFRFDSYS {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.xmlified .FDSYSANCESTORS, .xmlified .FDSYSHEADINGTITLE2, .xmlified .FDSYSORIGDATE, .xmlified .FDSYSDATE, .xmlified .FDSYSNUMTITLE1, .xmlified .FDSYSVOLUME {
+  display: block;
+}
+.xmlified H1 {
+  display: block;
+  font-weight: bold;
+  font-size: 18pt;
+  margin-top: 3cm;
+  text-align: center;
+  font-family: sans-serif;
+}
+.xmlified .SUBCHAP-HED {
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  display: block;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+.xmlified .SUBCHAP-RESERVED {
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  display: block;
+  margin-top: 1cm;
+}
+.xmlified .CFRGRANULE, .xmlified .CFRDOC {
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+.xmlified .CFRGRANULE-CHAPINDX, .xmlified .CFRGRANULE-BMTR, .xmlified .APPENDIX-GPH, .xmlified .CFRGRANULE-TOC, .xmlified .CFRGRANULE-CROSSREF {
+  display: block;
+  width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: left;
+}
+.xmlified .CFRDOC-CHAPINDX, .xmlified .CFRDOC-BMTR, .xmlified .CFRDOC-TOC, .xmlified .CFRDOC-CROSSREF {
+  display: block;
+  width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: left;
+}
+.xmlified .CFRGRANULE-CONTENTS, .xmlified CFRDOC-CONTENTS {
+  display: block;
+  width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: left;
+}
+.xmlified .SUBPART-SUBJGRP, .xmlified .CFRGRANULE-SOURCE, .xmlified CFRDOC-SOURCE, .xmlified .CFRGRANULE-AUTH, .xmlified .CFRDOC-AUTH {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.xmlified .CONTENTS-SUBPART {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.xmlified .EXPLA-SIG, .xmlified .EXPLA-IPAR, .xmlified .CFRGRANULE-ALPHLIST, .xmlified .CFRDOC-ALPHLIST, .xmlified .TOCTAC-TITLENO {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2cm;
+  text-align: left;
+}
+.xmlified .PART-ROPIND {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2cm;
+  text-align: left;
+}
+.xmlified .ROPIND-HED {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 12pt;
+  text-align: center;
+}
+.xmlified .ROPIND-SUBJECT {
+  display: block;
+  text-align: left;
+  clear: both;
+  font-style: italic;
+}
+.xmlified .ROPIND-SUBJL {
+  display: block;
+  width: 55%;
+  text-align: left;
+  float: left;
+}
+.xmlified .ROPIND-SUBJ1L {
+  display: block;
+  width: 55%;
+  text-align: left;
+  float: left;
+}
+.xmlified .ROPIND-SUBJ2L {
+  display: block;
+  width: 53.53%;
+  text-align: left;
+  margin-left: 0.5cm;
+  float: left;
+}
+.xmlified .ROPIND-SECTNO {
+  display: block;
+  width: 25%;
+  text-align: right;
+  margin-right: 1cm;
+  float: left;
+  clear: right;
+}
+.xmlified .TITLENO-SUBTI, .xmlified .TOC-EXPL, .xmlified .TITLENO-CHAPTI {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.xmlified .SUBJGRP-SECTION, .xmlified .SUBPART-SECTION {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.xmlified .SECTION-LDRWK {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: block;
+}
+.xmlified .PART-SECTION {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  display: block;
+}
+.xmlified .TOC-TITLENO {
+  display: block;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+.xmlified .TOC-CHAPTI, .xmlified .TOC-FAIDS {
+  display: block;
+  width: 100%;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  text-align: left;
+}
+.xmlified .CFRTOC-ABBR {
+  display: block;
+  width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: left;
+}
+.xmlified .SSAINDEX-EDNOTE, .xmlified .AR-NOTE, .xmlified .AR-PUBLI {
+  width: 100%;
+  text-indent: 1cm;
+}
+.xmlified .SECTION-EXTRACT {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.xmlified .CFRGRANULE-SECTION, .xmlified .CFRDOC-SECTION {
+  display: block;
+  width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: left;
+}
+.xmlified .APPENDIX-LDRWK {
+  display: block;
+  margin-left: 1cm;
+  margin-top: 10px;
+  text-align: left;
+  width: 60%;
+}
+.xmlified .CFRGRANULE-GROUPHD, .xmlified .CFRDOC-GROUPHD {
+  display: block;
+  width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: left;
+}
+.xmlified .BMTR-INCORP {
+  display: block;
+  width: 100%;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: left;
+}
+.xmlified .CFRTOC-PTHD, .xmlified .TOC-PGHD {
+  font-style: italic;
+  display: block;
+  text-align: right;
+  width: 80%;
+}
+.xmlified .CFRGRANULE-HED, .xmlified .CFRDOC-HED, .xmlified .TOC-HED {
+  margin-left: 1cm;
+  font-size: 30pt;
+  display: block;
+  border-bottom-style: double;
+  border-width: 2px;
+  border-color: black;
+  margin-top: 3cm;
+  margin-bottom: 2cm;
+  text-align: center;
+}
+.xmlified .EXTRACT-CTRHD, .xmlified .CTRHD-FP {
+  display: block;
+  text-align: left;
+  margin-left: 1cm;
+  margin-top: 20px;
+}
+.xmlified .CHAPTI-RESERVED {
+  text-align: left;
+  margin-left: 2cm;
+  float: left;
+}
+.xmlified .CHAPTI-SUBJECT {
+  text-align: left;
+  width: 74%;
+  margin-left: 2cm;
+  float: left;
+  display: inline;
+}
+.xmlified .EXPL-SUBJECT {
+  text-align: left;
+  width: 77%;
+  display: block;
+  float: left;
+}
+.xmlified .SUBTI-HED {
+  text-align: left;
+  width: 73.5%;
+  margin-left: 1cm;
+  float: left;
+}
+.xmlified .EXPL-PG, .xmlified .SUBTI-PG, .xmlified .CHAPTI-PG {
+  width: 5%;
+  text-align: left;
+  display: inline;
+  float: left;
+}
+.xmlified .MATH-MID {
+  text-align: left;
+  margin-left: 2cm;
+  font-size: 9pt;
+  font-style: italic;
+  display: block;
+}
+.xmlified .FAIDS-PG {
+  width: 20%;
+  text-align: right;
+}
+.xmlified .FAIDS-HED {
+  text-align: left;
+  width: 77%;
+}
+.xmlified .FAIDS-SUBJECT {
+  text-align: left;
+  width: 77%;
+}
+.xmlified .SIG-NAME {
+  text-align: right;
+  width: 90%;
+  display: block;
+  text-transform: uppercase;
+}
+.xmlified .SIG-OFFICE, .xmlified .SIG-POSITION {
+  text-align: right;
+  width: 90%;
+  display: block;
+  text-style: italic;
+}
+.xmlified .EXPLA-DATE {
+  text-align: left;
+  margin-left: 1cm;
+  width: 90%;
+  display: block;
+  text-style: italic;
+  font-weight: bold;
+}
+.xmlified .CFRGRANULE-HED, .xmlified CFRDOC-HED, .xmlified .CFRGRANULE-PROC, .xmlified .CFRDOC-PROC {
+  text-align: center;
+  font-size: 18pt;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  width: 100%;
+  clear: both;
+}
+.xmlified .CFRGRANULE-MEMO, .xmlified .CFRDOC-MEMO {
+  text-align: left;
+  margin-left: 1cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  width: 100%;
+}
+.xmlified .CFRGRANULE-RESERVED, .xmlified .CFRDOC-RESERVED {
+  width: 75%;
+  text-align: left;
+  display: block;
+}
+.xmlified .CFRGRANULE-ENTRY, .xmlified .CFRDOC-ENTRY {
+  width: 75%;
+  text-align: left;
+  float: left;
+  display: block;
+  margin-bottom: 20px;
+}
+.xmlified .CFRGRANULE-PG, .xmlified .CFRDOC-PG {
+  width: 80%;
+  text-align: right;
+  display: block;
+  float: left;
+}
+.xmlified .CFRGRANULE-DETNO, .xmlified CFRDOC-DETNO, .xmlified .CFRGRANULE-PNOTICE, .xmlified .CFRDOC-PNOTICE, .xmlified .CFRGRANULE-DATE, .xmlified .CFRDOC-DATE {
+  margin-left: 1cm;
+  font-style: italic;
+  display: block;
+  margin-top: 0.5cm;
+}
+.xmlified .CFRGRANULE-STUB, .xmlified .CFRDOC-STUB {
+  text-align: left;
+  display: block;
+  width: 90%;
+  float: left;
+  font-weight: bold;
+}
+.xmlified .CFRGRANULE-SUBJECT, .xmlified CFRDOC-SUBJECT {
+  margin-left: 1cm;
+  text-align: left;
+  display: block;
+}
+.xmlified .CFRGRANULE-SUBJECT1, .xmlified .CFRDOC-SUBJECT1 {
+  margin-left: 2cm;
+  text-align: left;
+  display: block;
+}
+.xmlified .EXPLA-HED, .xmlified .THISTITL-HED {
+  display: block;
+  font-size: 16pt;
+  text-align: center;
+  margin-bottom: 2cm;
+  margin-top: 3cm;
+}
+.xmlified .LSA-HED, .xmlified .ALPHLIST-HED {
+  display: block;
+  font-size: 18pt;
+  text-align: center;
+  margin-left: 1cm;
+  margin-top: 3cm;
+  width: 80%;
+  border-bottom-style: double;
+  border-width: 5px;
+}
+.xmlified .LDRWK-FL-2 {
+  text-align: left;
+  margin-left: 1cm;
+  width: 90%;
+  float: left;
+}
+.xmlified .LDRWK-LDRFIG {
+  text-align: right;
+  width: 100%;
+  display: block;
+}
+.xmlified .INCORP-RRH, .xmlified .INCORP-LRH {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+.xmlified .INCORP-HED {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  margin-top: 1cm;
+}
+.xmlified .CFRGRANULE-TABLHED, .xmlified .CFRDOC-TABLHED {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  margin-top: 3cm;
+  font-size: 14pt;
+  clear: both;
+}
+.xmlified .PART-CITA, .xmlified .CHAPTER-JOURNAL {
+  text-align: left;
+  margin-left: 0.5cm;
+  display: block;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  clear: both;
+}
+.xmlified .EXTRACT-DOCKETHD {
+  font-variant: small-caps;
+  text-align: center;
+  display: block;
+}
+.xmlified .EXTRACT-HD1 {
+  margin-left: 1cm;
+  font-variant: small-caps;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.xmlified .EXTRACT-FP {
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.xmlified .SECTION-APPRO, .xmlified .SECTION-FP {
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.xmlified .SECTION-EXT-XREF {
+  text-indent: 2cm;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.xmlified .SECTION-BOXTXT {
+  text-indent: 2cm;
+  text-align: center;
+  border: 1px solid black;
+  display: block;
+  padding: 10px;
+  width: 80%;
+  margin: 20px;
+}
+.xmlified .GPH-GID {
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.xmlified .APPENDIX-SECAUTH, .xmlified .GPH-BCAP {
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.xmlified .SSAINDEX-HED, .xmlified .ACQRUL-HED, .xmlified .ABBR-HED {
+  font-size: 14px;
+  font-variant: small-caps;
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.xmlified .EXTRACT-HD2 {
+  text-align: left;
+  margin-left: 1cm;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+.xmlified .EDNOTE-NOTE-HED {
+  font-variant: small-caps;
+  text-indent: 2cm;
+}
+.xmlified .ACQRUL-E-04 {
+  font-size: 14px;
+  font-variant: small-caps;
+}
+.xmlified .ACQRUL-E-03 {
+  font-style: italic;
+  margin-top: 25px;
+  text-indent: 2cm;
+}
+.xmlified .CHAPTER-CHAPNO {
+  margin-left: 1cm;
+  font-size: 14pt;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+}
+.xmlified .CHAPTER-OWNER {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 1cm;
+  display: block;
+  text-align: left;
+}
+.xmlified .CHAPTER-ADDR {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 1cm;
+}
+.xmlified .CHAPTER-AGENCY, .xmlified .CHAPTER-AVAIL {
+  display: block;
+  text-indent: 1cm;
+  text-align: left;
+  margin-bottom: 5px;
+  width: 80%;
+}
+.xmlified .CHAPTER-CFRHD {
+  text-align: right;
+  display: block;
+  margin-right: 1cm;
+  margin-bottom: 5px;
+}
+.xmlified .CUSTOM-CHAPTER-PUBLI {
+  font-style: normal;
+}
+.xmlified .CUSTOM-CHAPTER-CFRNO {
+  font-style: normal;
+}
+.xmlified .CHAPTER-CFRNO-MAINCONTAINER {
+  margin-top: -33px;
+  width: 1200px;
+}
+.xmlified .CHAPTER-CFRNO-MAINCONTAINER2 {
+  margin-bottom: 10px;
+  width: 1200px;
+  clear: both;
+}
+.xmlified .CHAPTER-CFRNO-SIDECONTAINER {
+  width: 350px;
+  padding: 10px;
+  margin: 0px;
+  float: left;
+}
+.xmlified .CHAPTER-CFRNO-CONTENTCONTAINER {
+  width: 400px;
+  padding: 10px;
+  text-align: right;
+  margin: 0px;
+  float: left;
+}
+.xmlified .CUSTOM-CHAPTER-CFRNO-DUMP {
+  text-align: right;
+}
+.xmlified .CHAPTER-PUBLI-CONTAINER {
+  text-align: left;
+  width: 650px;
+  padding: 5px;
+  display: block;
+}
+.xmlified .CHAPTER-ANOTE {
+  text-indent: 1cm;
+  display: block;
+  margin-bottom: 10px;
+}
+.xmlified .FAIDS-HED {
+  margin-top: 10px;
+  display: block;
+}
+.xmlified .FAIDS-SUBJECT {
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+.xmlified .FAIDS-PG {
+  position: absolute;
+  right: 5cm;
+  margin-top: -17px;
+  text-align: right;
+}
+.xmlified .CHAPINDX-SUBJECT {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+.xmlified .CHAPINDX-SUBJL {
+  display: inline;
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+.xmlified .CHAPINDX-PT {
+  display: inline;
+  text-align: right;
+}
+.xmlified .LSA-PUBYEAR {
+  display: block;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  text-align: center;
+}
+.xmlified .CFRGRANULE-APPHED, .xmlified .CFRGRANULE-APP, .xmlified .CFRDOC-APPHED, .xmlified .CFRDOC-APP {
+  display: block;
+  text-indent: 1cm;
+  text-align: left;
+  width: 60%;
+}
+.xmlified .CFRGRANULE-PG, .xmlified .CFRDOC-PG {
+  text-align: right;
+  display: block;
+  margin-right: 6cm;
+  margin-top: -22px;
+}
+.xmlified .CHAPINDX-HED, .xmlified .BLMINDEX-ALPHHD, .xmlified .CHAPINDX-ALPHHD {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  display: block;
+  font-size: 14pt;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.xmlified .BLMINDEX-HD2, .xmlified .BLMINDEX-HD {
+  text-align: left;
+  display: block;
+  text-indent: 2cm;
+  margin-top: 10px;
+}
+.xmlified .BLMINDEX-STUB {
+  display: block;
+  text-align: right;
+  margin-right: 1cm;
+  margin-top: -18px;
+}
+.xmlified .CROSSREF-HED {
+  display: block;
+  text-align: left;
+  margin-left: 1cm;
+}
+.xmlified .REGINDEX-INDEXHD {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  font-size: 12pt;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.xmlified .REGINDEX-ALPHHD {
+  margin-left: 3cm;
+  text-align: left;
+  font-weight: bold;
+  display: block;
+  font-size: 12pt;
+  margin-bottom: 20px;
+  margin-top: 1cm;
+}
+.xmlified .REGINDEX-FP {
+  text-transform: uppercase;
+  margin-top: 1cm;
+}
+.xmlified .PUBYEAR-YEAR {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+.xmlified .PUBYEAR-CFRNO {
+  text-align: left;
+  font-weight: bold;
+  display: block;
+  font-size: 12pt;
+  margin-bottom: 20px;
+}
+.xmlified .PUBYEAR-VOLHD {
+  text-align: right;
+  display: block;
+  font-size: 10pt;
+  margin-bottom: 20px;
+  margin-top: -42px;
+}
+.xmlified .PUBYEAR-PGHD {
+  text-align: right;
+  display: block;
+  font-size: 10pt;
+  margin-bottom: 20px;
+  margin-top: -19px;
+}
+.xmlified .PUBYEAR-REV, .xmlified .PUBYEAR-CHAPNO, .xmlified .PUBYEAR-ENTRY {
+  text-align: left;
+  display: block;
+  font-size: 12pt;
+}
+.xmlified .PUBYEAR-PG {
+  text-align: right;
+  display: block;
+  font-size: 12pt;
+  margin-top: -20px;
+}
+.xmlified .PUBYEAR-MOREPGS {
+  text-indent: 2cm;
+  text-align: center;
+  border: 1px solid black;
+  display: block;
+  padding: 10px;
+  width: 80%;
+  margin: 20px;
+}
+.xmlified .PUBLI1-SU {
+  font-size: 8pt;
+  font-style: italic;
+  margin-left: 2px;
+  margin-right: 2px;
+  vertical-align: super;
+}
+.xmlified .FP-SU, .xmlified .P-SU {
+  font-size: 8pt;
+  font-style: italic;
+  margin-left: 2px;
+  margin-right: 2px;
+  vertical-align: super;
+}
+.xmlified .P-FR {
+  font-size: 8pt;
+}
+.xmlified .SECTION-FTNT {
+  text-indent: 1cm;
+  font-size: 8pt;
+  font-style: italic;
+  display: block;
+  text-decoration: overline;
+}
+.xmlified .TITLEHD-HED {
+  display: block;
+  font-weight: bold;
+  font-size: 22pt;
+  text-align: center;
+  margin-top: 3cm;
+  margin-bottom: 1cm;
+  border-bottom-style: double;
+  border-width: 3px;
+}
+.xmlified .BLMINDEX-HED, .xmlified .CHAPTER-HED, .xmlified .TOCTAC-HED, .xmlified .SUBTITLE-HED, .xmlified .TOCHD-HED {
+  font-size: 22pt;
+  display: block;
+  border-bottom-style: double;
+  border-width: 2px;
+  border-color: black;
+  margin-top: 2cm;
+  text-align: center;
+}
+.xmlified .PART-HED {
+  font-weight: bold;
+  font-size: 12pt;
+  display: block;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  text-align: center;
+}
+.xmlified .PART-RESERVED {
+  font-weight: bold;
+  font-size: 12pt;
+  display: block;
+  margin-top: 3cm;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.xmlified .APPENDIX-LHD1, .xmlified .APPENDIX-HD3, .xmlified .APPENDIX-HD1, .xmlified .APPENDIX-HED {
+  font-weight: bold;
+  display: block;
+  font-size: 12pt;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.xmlified .APPENDIX-HD2 {
+  font-weight: bold;
+  display: block;
+  font-size: 12pt;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.xmlified .SIDEHED-HED {
+  text-indent: 1cm;
+  display: block;
+  font-size: 12pt;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.xmlified .SUBPART-APP {
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 20pt;
+  margin-bottom: 10pt;
+  display: block;
+}
+.xmlified .SUBJGRP-HED {
+  font-size: 12pt;
+  margin-bottom: 20pt;
+  margin-top: 25pt;
+  display: block;
+  font-weight: bold;
+  width: 80%;
+}
+.xmlified .CONTENTS-APP {
+  display: block;
+  text-align: left;
+  margin-top: 1cm;
+  text-indent: 2cm;
+  font-weight: bold;
+}
+.xmlified .SECTION-SECTNO {
+  font-weight: bold;
+  text-align: left;
+  width: 15%;
+  float: left;
+}
+.xmlified .SECTION-SUBJECT {
+  font-weight: bold;
+  width: 70%;
+}
+.xmlified .SECTION-RESERVED {
+  font-weight: bold;
+  width: 70%;
+}
+.xmlified .SUBJGRP-SECTNO, .xmlified .CONTENTS-SECTNO {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  width: 15%;
+  float: left;
+}
+.xmlified .SUBJGRP-SUBJECT, .xmlified .AUTH-SOURCE-P, .xmlified .CONTENTS-SUBJECT {
+  width: 90%;
+  display: block;
+  text-align: left;
+}
+.xmlified .SOURCE-HED, .xmlified .AUTH-HED {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  width: 15%;
+  float: left;
+}
+.xmlified .INCORP-REV, .xmlified .BLMINDEX-DATE, .xmlified .TOCTAC-REV {
+  font-weight: bold;
+  font-size: 8pt;
+  text-align: center;
+  display: block;
+}
+.xmlified .ALPHLIST-AGHD {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1cm;
+  display: block;
+  width: 30%;
+  float: left;
+}
+.xmlified .ALPHLIST-AGENCY {
+  text-align: left;
+  display: block;
+  width: 70%;
+  float: left;
+}
+.xmlified .ALPHLIST-SUBAGCY {
+  text-align: left;
+  margin-left: 1cm;
+  display: block;
+  width: 65.7%;
+  float: left;
+}
+.xmlified .ALPHLIST-CFRHD {
+  font-weight: bold;
+  text-align: right;
+  display: block;
+  width: 90%;
+}
+.xmlified .ALPHLIST-CFRID {
+  text-align: right;
+  display: block;
+  width: 90%;
+}
+.xmlified .LSA-LRH {
+  text-align: left;
+  float: left;
+  width: 30%;
+  display: block;
+  clear: both;
+}
+.xmlified .LSA-RRH {
+  float: left;
+  width: 50%;
+  display: block;
+}
+.xmlified .GID {
+  font-family: Sans-serif;
+  font-size: 10pt;
+  margin-top: 2pt;
+  margin-bottom: 6pt;
+  display: block;
+}
+.xmlified .ALPHLIST-REV {
+  text-align: center;
+  font-weight: bold;
+  font-size: 8pt;
+  display: block;
+  margin-bottom: 1cm;
+  width: 80%;
+}
+.xmlified .TOCTAC-CHHD, .xmlified .APPENDIX-EAR, .xmlified .CHAPTER-LRH, .xmlified .CHAPTER-RRH, .xmlified .TITLE-LRH, .xmlified .TITLE-RRH, .xmlified .PART-EAR {
+  display: none;
+}
+.xmlified .CFRGRANULE-LRH, .xmlified .CFRDOC-LRH, .xmlified .CFRGRANULE-RRH, .xmlified .CFRDOC-RRH {
+  display: none;
+}
+.xmlified .FAIDS-P, .xmlified .EFFDNOTP-P, .xmlified .APPENDIX-P, .xmlified .AUTH-P, .xmlified .SOURCE-P, .xmlified .SIDEHED-P, .xmlified .THISTITL-P, .xmlified .SECTION-P, .xmlified .EXTRACT-P {
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+}
+.xmlified .CHAPINDX-FP {
+  text-indent: 2cm;
+  display: block;
+  text-align: left;
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  width: 100%;
+}
+.xmlified .APPENDIX-FP {
+  text-indent: 1cm;
+  display: block;
+  text-align: left;
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  font-style: italic;
+}
+.xmlified .CHAPTI-PT {
+  text-align: left;
+  width: 5%;
+  float: left;
+  display: inline;
+  clear: left;
+}
+.xmlified .CFRGRANULE-PTHD, .xmlified .CFRDOC-PTHD {
+  text-align: left;
+  font-style: italic;
+  width: 40%;
+  display: block;
+  float: left;
+}
+.xmlified .CFRGRANULE-PGHD, .xmlified .CFRDOC-PGHD {
+  text-align: right;
+  margin-right: 1cm;
+  font-style: italic;
+  width: 45%;
+  display: block;
+  float: left;
+}
+.xmlified .TOC-PTHD {
+  text-indent: 1cm;
+  display: block;
+  font-style: italic;
+  margin-top: 20pt;
+}
+.xmlified .EFFDNOTP-HED {
+  text-indent: 2cm;
+  text-align: left;
+}
+.xmlified .AUTH-SOURCE-P {
+  text-indent: 3cm;
+  display: block;
+}
+.xmlified .EXPLAP.SIDEHEDP {
+  text-indent: 1cm;
+  display: block;
+}
+.xmlified .TITLENO-SUBTITL {
+  text-transform: uppercase;
+  margin-top: 15px;
+  display: block;
+  text-align: left;
+  margin-bottom: 15px;
+  width: 90%;
+}
+.xmlified .TITLENO-HED {
+  margin-top: 15px;
+  display: block;
+}
+.xmlified .TITLENO-RESERVED {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+}
+.xmlified .MyTITLENO-HED {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+  width: 90%;
+}
+.xmlified .SUBPART-SECTNO {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  float: left;
+  width: 15%;
+}
+.xmlified .SUBPART-SUBJECT {
+  display: block;
+  text-align: left;
+  width: 75%;
+}
+.xmlified .TITLENO-SUBJECT {
+  text-indent: 2cm;
+  display: block;
+  text-align: left;
+}
+.xmlified .SUBJECT-PREVCHAPNO {
+  text-indent: 1px;
+  display: block;
+  text-align: left;
+  width: 90%;
+}
+.xmlified .TITLENO-CHAPNO {
+  display: block;
+  text-align: left;
+  width: 10%;
+  float: left;
+}
+.xmlified .SUBJGRP-SECHD, .xmlified .SUBPART-SECHD {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+.xmlified .CONTENTS-SECHD {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+.xmlified .MyRESERVED {
+  font-weight: bold;
+  display: block;
+  font-size: 12pt;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.xmlified .SUBPART-HED {
+  font-weight: bold;
+  display: block;
+  font-size: 12pt;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.xmlified .EXPL {
+  display: block;
+  width: 500px;
+}
+.xmlified .EXPL {
+  width: 100%;
+}
+.xmlified .IPAR-P {
+  margin-left: 1cm;
+  text-align: left;
+  float: left;
+  width: 30%;
+}
+.xmlified .IPAR-STUB {
+  margin-right: 1cm;
+  width: 30%;
+  float: left;
+  clear: right;
+}
+.xmlified .CFRGRANULE-CITE, .xmlified .CFRDOC-CITE {
+  margin-left: 5cm;
+  display: block;
+  font-style: italic;
+  font-size: 12pt;
+  width: 50%;
+  border-bottom-style: double;
+  border-top-style: double;
+  border-width: 2px;
+  margin-top: 6cm;
+  margin-bottom: 6cm;
+  text-align: center;
+}
+.xmlified .CITE-CITEP {
+  display: block;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.xmlified .E-01 {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-left: 8px;
+  font-style: normal;
+}
+.xmlified .E {
+  font-weight: bold;
+  font-style: normal;
+}
+.xmlified .E-02 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12pt;
+}
+.xmlified .E-03, .xmlified .URL {
+  margin-left: 0.5cm;
+  font-style: italic;
+}
+.xmlified .E-04 {
+  margin-left: 0.2cm;
+  font-weight: bold;
+}
+.xmlified .E-05 {
+  margin-left: 1.5cm;
+  font-variant: small-caps;
+}
+.xmlified .E-15 {
+  font-variant: small-caps;
+}
+.xmlified .E-22, .xmlified .E-52 {
+  font-size: 6pt;
+  vertical-align: sub;
+}
+.xmlified .E-51 {
+  font-size: 6pt;
+  vertical-align: top;
+}
+.xmlified .CFRGRANULE-FP, .xmlified .CFRDOC-FP, .xmlified .CFRGRANULE-AMDPAR, .xmlified .CFRDOC-AMDPAR, .xmlified .HED-P, .xmlified .HD1-P, .xmlified .P {
+  margin-left: 1cm;
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
+}
+.xmlified .SSAINDEX-HED-P {
+  text-indent: 1cm;
+  text-align: left;
+}
+.xmlified .MyP {
+  text-indent: 1cm;
+  text-align: left;
+  display: block;
+}
+.xmlified .APPENDIX-CITA, .xmlified .CITA {
+  text-indent: 1cm;
+  text-align: left;
+  margin-top: 5pt;
+  margin-bottom: 20pt;
+}
+.xmlified .GPOTABLE {
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  margin-left: 1cm;
+  display: block;
+  border-collapse: collapse;
+  empty-cells: show;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.xmlified .GPOTABLE-TTITLE {
+  text-align: center;
+}
+.xmlified .CHED {
+  font-size: 8pt;
+  padding: 5px;
+  font-weight: bold;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.xmlified .ENT {
+  font-size: 8pt;
+  padding: 5px;
+}
+.xmlified .TNOTE {
+  font-size: 8pt;
+  padding-left: 15px;
+}
+.xmlified .TRPRTPAGE, .xmlified .TDPRTPAGE {
+  width: 100%;
+}
+.xmlified .OMBNOS {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.xmlified .OMBNOS-LRH, .xmlified .OMBNOS-RRH, .xmlified .REDES-LRH, .xmlified .REDES-RRH, .xmlified .REGINDEX-LRH, .xmlified .REGINDEX-RRH, .xmlified .SUBCHIND-LRH, .xmlified .SUBCHIND-RRH {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.xmlified .OMBNOS-HED, .xmlified .REDES-HED, .xmlified .REGINDEX-HED, .xmlified .SUBCHIND-HED, .xmlified .SUBJIND-HED {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18pt;
+}
+.xmlified .ONOTE {
+  display: block;
+  margin-top: 20px;
+  text-indent: 1.5cm;
+}
+.xmlified .SECTION-PARAUTH {
+  display: block;
+  margin-top: 10px;
+  text-indent: 2cm;
+  font-size: 8pt;
+}
+.xmlified .APPENDIX-PARTHD {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.xmlified .PUBYEAR-REG {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.xmlified .EDNOTE, .xmlified .WEDNOTE {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.xmlified .EDNOTE-HED, .xmlified .WEDNOTE-HED {
+  text-transform: uppercase;
+}
+.xmlified .EDNOTEP, .xmlified .WEDNOTEP {
+  display: inline;
+  text-indent: 0cm;
+  text-align: center;
+  margin-right: 0cm;
+  margin-left: 0cm;
+}
+.xmlified .RESCIS-HED {
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.xmlified .SCOL2 {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.xmlified .SCOL2-LI {
+  display: block;
+  text-indent: 2cm;
+}
+.xmlified .SUBCHPHD {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12pt;
+}
+.xmlified .SUBJIND-EAR {
+  display: none;
+}
+.xmlified .CHAPINDX-LRH, .xmlified .CHAPINDX-RRH {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.xmlified .ALPHHD {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18pt;
+}
+.xmlified .CHAPINDX-PT {
+  text-align: right;
+  position: absolute;
+  right: 50px;
+}
+.xmlified .CHAPINDX-SUBJ1L, .xmlified .CHAPINDX-SUBJECT1 {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.xmlified .CHAPINDX-SUBJ2L, .xmlified .CHAPINDX-SUBJECT2 {
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.xmlified .CHAPINDX-SUBJ3L, .xmlified .CHAPINDX-SUBJECT3 {
+  margin-left: 60px;
+  margin-top: 5px;
+}
+.xmlified .CHAPINDX-PT-P {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.xmlified .SUBPUBLI {
+  display: block;
+  text-indent: 0.5cm;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.xmlified .TCAP {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.xmlified .TDESC {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 8pt;
+}
+.xmlified .SUBTI2 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.xmlified .SUBTI2-HED {
+  margin-left: 40px;
+}
+.xmlified .SUBTI2-PG {
+  text-align: right;
+  position: absolute;
+  right: 6.5cm;
+}
+.xmlified .CFRGRANULE-ABBREV, .xmlified .CFRDOC-ABBREV {
+  float: left;
+  display: block;
+  width: 15%;
+  clear: both;
+  text-align: left;
+}
+.xmlified .CFRGRANULE-NAME, .xmlified .CFRDOC-NAME {
+  margin-bottom: 10px;
+  float: left;
+  display: block;
+  width: 85%;
+  text-align: left;
+}
+.xmlified .PGHEAD {
+  width: 100%;
+  margin-top: 24pt;
+  margin-bottom: 0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  text-indent: 0cm;
+  font-style: normal;
+}
+.xmlified .PGHDRCOLLECTION {
+  font-weight: bold;
+}
+.xmlified .PGLABEL {
+  text-align: left;
+  font-size: 10pt;
+}
+.xmlified .PRTPAGE {
+  text-align: right;
+  font-weight: bold;
+  position: absolute;
+  right: 50px;
+  font-size: 11pt;
+}
+.xmlified .PRTPAGELN1 {
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 6px;
+  border-color: black;
+  padding-bottom: 3pt;
+}
+.xmlified .PRTPAGELN2 {
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-bottom: 24pt;
+  padding-bottom: 3pt;
+}
