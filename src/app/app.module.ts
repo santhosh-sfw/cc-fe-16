@@ -21,7 +21,7 @@ export const createTranslateHttpLoader = (http: HttpClient) => {
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,

@@ -29,8 +29,27 @@ import {
 } from 'ngx-perfect-scrollbar';
 import { MomentDateAdapter, MAT_MOMENT_DATE_FORMATS } from '@angular/material-moment-adapter';
 import { MAT_SELECT_SCROLL_STRATEGY } from '@angular/material/select';
-import { RequirementDetailsComponent } from '../common/requirement-details/requirement-details.component';
-import { ModalBigComponent } from '../common/modal-big/modal-big.component';
+import { RequirementDetailsComponent } from 'src/app/common/requirement-details/requirement-details.component';
+import { AddDeptCaroselComponent } from 'src/app/common/add-dept-carosel/add-dept-carosel.component';
+import { CarousalComponent } from 'src/app/common/carousal/carousal.component';
+import { ChatWidgetComponent } from 'src/app/common/chat-widget/chat-widget.component';
+import { ComplianceLibComponent } from 'src/app/common/compliance-lib/compliance-lib.component';
+import { HeaderComponent } from 'src/app/common/header/header.component';
+import { ModalSmallComponent } from 'src/app/common/modal-small/modal-small.component';
+import { MonthPickerComponent } from 'src/app/common/month-picker/month-picker.component';
+import { OnboardCaroselComponent } from 'src/app/common/onboard-carosel/onboard-carosel.component';
+import { ProfilePictureModalComponent } from 'src/app/common/profile-picture-modal/profile-picture-modal.component';
+import { SearchComplianceContainerComponent } from 'src/app/common/search-compliance-container/search-compliance-container.component';
+import { SearchComplianceLibraryComponent } from 'src/app/common/search-compliance-library/search-compliance-library.component';
+import { SideNavComponent } from 'src/app/common/side-nav/side-nav.component';
+import { AmendmentCarouselComponent } from 'src/app/common/amendment-carousel/amendment-carousel.component';
+import { ComplianceSearchLibComponent } from 'src/app/common/compliance-search-lib/compliance-search-lib.component';
+import { ScrollTabComponent } from 'src/app/common/scroll-tab/scroll-tab.component';
+import { GapAnalysisBmComponent } from '../BM/gap-analysis-bm/gap-analysis-bm.component';
+import { BusinessImpactPmComponent } from '../PM/business-impact-pm/business-impact-pm.component';
+import { OverallComponent } from '../PM/business-impact-pm/overall/overall.component';
+import { RequirementWiseComponent } from '../PM/business-impact-pm/requirement-wise/requirement-wise.component';
+import { GapAnalysisPmComponent } from '../PM/gap-analysis-pm/gap-analysis-pm.component';
 
 
 
@@ -55,7 +74,26 @@ export function scrollFactory(overlay: Overlay): () => CloseScrollStrategy {
 @NgModule({
     declarations: [
         RequirementDetailsComponent,
-        ModalBigComponent
+        ProfilePictureModalComponent,
+        HeaderComponent,
+        SideNavComponent,
+        ModalSmallComponent,
+        CarousalComponent,
+        OnboardCaroselComponent,
+        SearchComplianceContainerComponent,
+        AddDeptCaroselComponent,
+        ComplianceLibComponent,
+        SearchComplianceLibraryComponent,
+        ChatWidgetComponent,
+        MonthPickerComponent,
+        GapAnalysisPmComponent,
+        BusinessImpactPmComponent,
+        OverallComponent,
+        AmendmentCarouselComponent,
+        GapAnalysisBmComponent,
+        ScrollTabComponent,
+        ComplianceSearchLibComponent,
+        RequirementWiseComponent
     ],
     providers: [
         {
